@@ -152,3 +152,5 @@ componentDidMount() {
       });
 }
 ```
+
+*Note: on iOS getInitialNotification appears to work in release mode only, per issue [#3095](https://github.com/invertase/react-native-firebase/issues/3095)*
