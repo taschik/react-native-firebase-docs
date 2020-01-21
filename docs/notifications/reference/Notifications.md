@@ -58,6 +58,9 @@ For notifications when the app is running, see [ref notifications#onNotification
 
 Returns the notification that caused the application to open if available, and the action that was invoked when it was clicked on.
 
+!> on iOS getInitialNotification appears to work in release mode only, per issue [#3095](https://github.com/invertase/react-native-firebase/issues/3095)*
+
+
 ### getScheduledNotifications
 [method]getScheduledNotifications() returns Promise containing Array of [ref notifications.Notification];[/method]
 
